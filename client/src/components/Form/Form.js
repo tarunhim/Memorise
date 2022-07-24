@@ -13,7 +13,7 @@ const Form = ({ currentId, setCurrentId }) => {
   const classes = useStyles();
 
   useEffect(() => {
-    if (post) setPostData(post);
+    if (post)  setPostData(post);
   }, [post]);
 
   const clear = () => {
